@@ -1,0 +1,22 @@
+item.@.rune_base.name=Rune
+item.@.rune_earth.name=Earth Rune
+item.@.rune_fire.name=Fire Rune
+item.@.rune_water.name=Water Rune
+item.@.rune_air.name=Air Rune
+item.@.rune_time.name=Time Rune
+item.@.rune_sacrifice.name=Sacrifice Rune
+
+item.@.amethyst.name=Arcane Amethyst
+item.@.feather_bottle.name=Feather in a Bottle
+item.@.wind_bottle.name=Bottle of Wind Essence
+
+item.@.gauntlet.name=Gauntlet
+item.@.amethyst_pickaxe.name=Amethyst-Infused Pickaxe
+item.@.hungry_pickaxe.name=Hungry Pickaxe
+item.@.vein_pickaxe.name=Vein-Mining Pickaxe
+item.@.amethyst_axe.name=Amethyst-Infused Axe
+item.@.crumbling_axe.name=Crumbling Axe
+
+tile.@.amethyst_ore.name=Arcane Amethyst Ore
+tile.@.infusion_pedestal.name=Infusion Pedestal
+tile.@.altar.name=Altar

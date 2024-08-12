@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "runebound:block/altar_top",
+    "bottom": "runebound:block/altar_bottom",
+    "side": "runebound:block/altar_side"
+  }
+}

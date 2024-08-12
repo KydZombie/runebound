@@ -1,6 +1,6 @@
 plugins {
-	id 'fabric-loom' version '1.6.2'
-	id 'babric-loom-extension' version '1.6.9'
+	id 'fabric-loom' version '1.7.2'
+	id 'babric-loom-extension' version '1.7.3'
 	id 'maven-publish'
 }
 
@@ -86,6 +86,10 @@ dependencies {
 		transitive false
 	}
 	modImplementation("net.glasslauncher:HowManyItems-Fabric-Unofficial:${project.howmanyitems_version}") {
+		transitive false
+	}
+
+	modImplementation("com.github.matthewperiut:accessory-api:${project.accessoryapi_version}") {
 		transitive false
 	}
 }

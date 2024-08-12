@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "runebound:item/crumbling_axe_animated"
+  }
+}

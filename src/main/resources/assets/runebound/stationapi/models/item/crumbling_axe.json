@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "runebound:item/crumbling_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "runebound:should_animate": 1
+      },
+      "model": "runebound:item/crumbling_axe_animated"
+    }
+  ]
+}

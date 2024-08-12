@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "runebound",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Runebound",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -13,29 +13,25 @@
     "sources": "https://github.com/calmilamsy/stationapi-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/examplemod/icon.png",
+  "license": "MIT",
+  "icon": "assets/runebound/icon.png",
 
   "environment": "*",
   "entrypoints": {
+    "main": [
+      "io.github.kydzombie.runebound.Runebound"
+    ],
     "stationapi:event_bus": [
-      "net.glasslauncher.example.events.init.AchievementListener",
-      "net.glasslauncher.example.events.init.BlockListener",
-      "net.glasslauncher.example.events.init.ItemListener",
-      "net.glasslauncher.example.events.init.PlayerHandlerListener",
-      "net.glasslauncher.example.events.init.RecipeListener"
+      "io.github.kydzombie.runebound.Runebound"
     ],
     "stationapi:event_bus_client": [
-      "net.glasslauncher.example.events.init.KeyBindingListener",
-      "net.glasslauncher.example.events.init.TextureListener",
-      "net.glasslauncher.example.events.ingame.KeyPressedListener"
+      "io.github.kydzombie.runebound.RuneboundClient"
     ],
     "stationapi:event_bus_server": [
-      "net.glasslauncher.example.events.init.ServerInitListener"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "runebound.mixins.json"
   ],
 
   "depends": {
